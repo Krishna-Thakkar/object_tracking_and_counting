@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Helmet', 'No-Helmet', 'No-Vest', 'Person', 'Vest']
+
+roboflow:
+  workspace: apd-2iems
+  project: helm-lqsd8
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/apd-2iems/helm-lqsd8/dataset/3
